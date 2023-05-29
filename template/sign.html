@@ -3,6 +3,8 @@
 <head>
     <title>Sign up</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
 
@@ -27,6 +29,48 @@
             <p>Thank you for visiting this page. If you'd like you can sign up here to get the latest news first.</p>
         </div>
     </main>
+
+    <div id="form">
+
+        <h2>Complete the following steps to recieve latest news.</h2>
+
+        <form>\<!-- Start Form -->
+
+            <fieldset>
+                <legend>Information</legend>
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName" required>
+
+                <label for="lName">Last Name:</label>
+                <input type="text" id="lName" id="lName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <p>What alerts would you like to recieve?:</p>
+
+                <label for="regsea"><input type="checkbox" name="interest" id="regsea" value="Regular Season">Regular Season</label>
+
+                <label for="ploff"><input type="checkbox" name="interest" id="ploff" value="Playoffs">Playoffs</label>
+
+                <label for="gmsco"><input type="checkbox" name="interest" id="gmsco" value="Game Score">Game Score</label>
+
+                <label for="alt"><input type="checkbox" name="interest" id="alt" value="Everyday Alerts">Everyday Alerts</label>
+
+                <label for="aobv"><input type="checkbox" name="interest" id="aobv" value="All the Above">All the Above</label>
+            </fieldset>
+
+            <input type="submit" id="submit" value="Submit" class="btn">
+
+        </form>
+
+    </div>
 
     <footer>
         <p>&copy; Copyright 2023. All Rights Reserved.</p>
