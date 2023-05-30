@@ -1,0 +1,56 @@
+body {
+    background-color: #BABABA;
+}
+
+nav {
+    width: 70%;
+    float: center;
+    margin: 5em 3em 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li a {
+    text-align: center;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+nav li {
+    display:  inline-block;
+    font-size: 1.75em;
+}
+
+#form {
+    margin-top: 2%;
+    background-color: #f2f2f2;
+    padding: 2%;
+}
+
+#form h2 {
+    text-align: center;
+}
+
+fieldset, input, select, textarea {
+    margin: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+footer {
+    text-align: center;
+}
