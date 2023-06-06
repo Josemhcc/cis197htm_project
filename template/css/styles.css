@@ -54,3 +54,58 @@ fieldset legend {
 footer {
     text-align: center;
 }
+
+/* Style rule for mobile viewport */
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px) {
+/*Tablet Viewport: Style rules */
+header {
+    position: station;
+    padding-bottom: 2%;
+}
+
+nav li {
+    border-top: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    padding: 0.1em 0.75em;
+}
+
+main {
+    clear: left;
+}
+}
